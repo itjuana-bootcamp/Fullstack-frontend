@@ -3,7 +3,7 @@ import { format } from 'date-fns'
 
 import "../comments.css"
 
-const Comment = ({ comment, onEdit, onDelete }) => {
+const Comment = ({ comment, onEdit, onDelete }) => 
 
     return (
         <div className='comment-container'>
